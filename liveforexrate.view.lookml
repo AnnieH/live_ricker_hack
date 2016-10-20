@@ -1,5 +1,5 @@
 - view: liveforexrate
-  sql_table_name: spaautoupdate_deliver.liveforexrate
+  sql_table_name: tempstaylor_raw.liveforexrate
   fields:
 
   - dimension_group: asof
