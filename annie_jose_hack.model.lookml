@@ -119,3 +119,5 @@
 
 # - explore: gormantestlocal
 
+- explore: liveforexrate
+
