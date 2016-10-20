@@ -4,12 +4,7 @@
 
   - dimension_group: asof
     type: time
-    timeframes: [time, date, week, month]
     sql: ${TABLE}.asof
-
-  - dimension: rate
-    type: number
-    sql: ${TABLE}.rate
 
   - dimension: src
     type: string
@@ -18,8 +13,8 @@
   - dimension: target
     type: string
     sql: ${TABLE}.target
-
-  - measure: count
-    type: count
-    drill_fields: []
+    
+  - dimension: rate
+    type: number
+    sql: ${TABLE}.rate
 

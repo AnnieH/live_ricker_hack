@@ -120,4 +120,5 @@
 # - explore: gormantestlocal
 
 - explore: liveforexrate
+  persist_for: 0 seconds
 
